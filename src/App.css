@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 4rem 19rem;
 }
 
 .flex__center {
@@ -53,7 +53,7 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: var(--color-golden);
   color: var(--color-black);
   font-family: var(--font-base);
   font-weight: 700;
@@ -65,6 +65,11 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.custom__button:hover {
+  background-color: #dbc268;
 }
 
 .p__cormorant {
@@ -80,7 +85,7 @@
 
 .p__opensans {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: #AAA;
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;

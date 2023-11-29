@@ -1,0 +1,56 @@
+.app__header {
+  background: var(--color-black);
+  padding: 10rem 19rem 4rem 19rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 180px;
+}
+
+.app__header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.app__header-content_title {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}
+
+
+.app__header-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  box-shadow: 13px -11px 0px -3px rgba(220, 202, 135, 1);
+}
+
+.app__header-img img {
+  max-width: 500px;
+  object-fit: cover;
+}
+
+
+/* DÚVIDAS 
+
+1 - Pesquisar sobre como deixar uma imagem estática. A imagem está diminuindo demais, o que tentaremos resolver com a ajuda de media queries.
+
+2 - De resto, parabéns. Você é um monstro!
+
+3 - Para que a imagem não fique responsiva, pelo menos em telas grandes A PRINCIPIO, basta deixar a imagem com um width fixo.
+
+4 - Eu coloquei max-width: 500px. O que isso significa? A imagem original é de 4000 x 6000. Quando eu coloco que o max de largura que ela vai ter é 500px, ele vai diminuir a imagem ATÉ chegar em 500px, sacou? É o maximo que ela vai ter. E ela não vai diminuir responsivamente, sem que eu coloque alguma porcentagem ou algo do tipo. É uma excelente forma de trabalharmos.
+
+*/
