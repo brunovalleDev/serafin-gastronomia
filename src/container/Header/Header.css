@@ -74,7 +74,7 @@
     color: var(--DCCA87, #DCCA87);
     /* H1 90px Cormorant Upright Semi */
     font-family: Cormorant Upright;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -123,7 +123,7 @@
   }
 
   .app__header-content_title {
-    font-size: 60px;
+    font-size: 70px;
     width: 100%;
   }
 

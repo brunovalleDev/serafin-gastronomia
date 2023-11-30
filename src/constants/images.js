@@ -21,6 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import welcome2 from '../assets/welcome2.jpg';
+import S from '../assets/S.png'
 
 export default {
   bg,
@@ -45,5 +46,6 @@ export default {
   sign,
   quote,
   gericht,
-  welcome2
+  welcome2,
+  S
 };
