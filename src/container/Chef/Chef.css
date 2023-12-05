@@ -1,0 +1,139 @@
+.app__chef {
+  background: url('../../assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+
+  padding: 8rem 16rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.app__chef-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.app__chef-img img {
+  width: 610px;
+}
+
+.app__chef-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+  width: 100%;
+}
+
+.app__chef-info_title h3 {
+  color: var(--DCCA87, #DCCA87);
+  font-variant-numeric: lining-nums tabular-nums;
+  /* H2 64px Cormorant Upright */
+  font-family: Cormorant Upright;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  /* 83.2px */
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+}
+
+.app__chef-content_quote {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.app__chef-content_quote img {
+  width: 47px;
+  height: 40px;
+  margin-right: 0.625rem;
+}
+
+.app__chef-content_name p:first-child {
+  color: var(--color-golden);
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.app__chef-content_sign img {
+  width: 235px;
+}
+
+@media screen and (max-width: 767px) {
+  .app__chef {
+    background: url('../../assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    min-height: 100vh;
+
+    padding: 4rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .app__chef-img img {
+    width: 100%;
+  }
+
+  .app__chef-info_title {
+    text-align: center;
+  }
+
+  .app__chef-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .app__chef {
+    padding: 4rem 2rem;
+    gap: 1rem;
+  }
+
+  .app__chef-img img {
+    width: 300px;
+  }
+
+  .app__chef-info>* {}
+
+  .app__chef-info {
+    gap: 2rem;
+  }
+
+  .app__chef-info_title h3 {
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1572px) {
+  .app__chef {
+    padding: 8rem 2rem;
+  }
+
+  .app__chef-img img {
+    width: 500px;
+  }
+
+}

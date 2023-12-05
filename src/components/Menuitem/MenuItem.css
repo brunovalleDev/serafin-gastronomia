@@ -1,0 +1,19 @@
+.app__menuitem-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.app__menuitem-head h4 {
+  color: var(--color-golden);
+  flex-grow: 1;
+}
+
+.app__menuitem-head_dash {
+  width: 119px;
+  height: 1px;
+  background: var(--FAFAFA, #FAFAFA);
+}

@@ -1,0 +1,147 @@
+.app__specialmenu {
+  padding: 8rem 15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-black);
+  gap: 4rem;
+}
+
+.app__specialmenu-header {
+  text-align: center;
+}
+
+.app__specialmenu-header_title {
+  color: var(--DCCA87, #DCCA87);
+  text-align: center;
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 2.56px;
+  text-transform: capitalize;
+}
+
+.app__specialmenu-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.app__specialmenu-menu_wine,
+.app__special-menu_cocktails {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex: 1;
+}
+
+.app__specialmenu-menu_title {
+  color: var(--FFFFFF, #FFF);
+  text-align: center;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Cormorant Upright;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.8px;
+  text-transform: capitalize;
+}
+
+.app__specialmenu-menu_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__specialmenu-menu_img img {
+  width: 444px;
+  height: 659px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.app__specialmenu-menu_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 2.5rem;
+}
+
+
+@media screen and (max-width: 767px) {
+  .app__specialmenu {
+    padding: 5rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app__specialmenu-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .app__specialmenu-menu_img img {
+    width: 350px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .app__specialmenu-button {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .app__specialmenu {
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app__specialmenu-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .app__specialmenu-menu_img img {
+    width: 500px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Regra BÁSICA DE ARQUITETURA: sempre lembrar do width: 100%! Se não estiver definido assim, pode ser que você tenha problemas no futuro com resposividade. Fique esperto. */

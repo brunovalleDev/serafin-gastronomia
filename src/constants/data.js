@@ -2,59 +2,61 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Chapel Hill',
+    price: 'R$ 120',
+    tags: 'Austrália',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Catena Malbec',
+    price: 'R$ 150',
+    tags: 'Argentina',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'La Vieille Rose',
+    price: 'R$ 220',
+    tags: 'França',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Rosso Elegante',
+    price: 'R$ 180',
+    tags: 'Itália',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Porto Charmoso',
+    price: 'R$ 160',
+    tags: 'Portugal',
   },
 ];
 
+
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Aperol Spritz',
+    price: 'R$ 55',
+    tags: 'Aperol | Prosecco Villa Marchesi | água com gás | 30 ml',
   },
   {
     title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    price: 'R$ 42',
+    tags: 'Rum escuro | Cerveja de gengibre | Fatia de limão',
   },
   {
     title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    price: 'R$ 40',
+    tags: 'Rum | Suco cítrico | Açúcar',
   },
   {
     title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    price: 'R$ 70',
+    tags: 'Bourbon | Açúcar mascavo | Angostura Bitters',
   },
   {
     title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    price: 'R$ 47',
+    tags: 'Gin | Vermute Doce | Campari | Guarnição de laranja',
   },
 ];
+
 
 const awards = [
   {
