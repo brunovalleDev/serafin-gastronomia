@@ -1,0 +1,133 @@
+  .app__gallery {
+    background: var(--color-black);
+    padding: 2.5rem 0 1.125rem 6.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .app__gallery-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    min-width: 491px;
+  }
+
+  .app__gallery-info_title h3 {
+    color: var(--DCCA87, #DCCA87);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+  }
+
+  .app__gallery-images {
+    display: flex;
+    flex-direction: row;
+    /* min-width: 1633px; */
+    max-width: 68%;
+    position: relative;
+  }
+
+  .app__gallery-images_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .app__gallery-images_container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .app__gallery-images_card {
+    min-width: 300px;
+    height: 447px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .app__gallery-images_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .app__gallery-images_card:hover img {
+    opacity: 0.5;
+  }
+
+  .gallery_instagram-icon {
+    position: absolute;
+    font-size: 45px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    opacity: 0;
+  }
+
+  .app__gallery-images_card:hover .gallery_instagram-icon {
+    opacity: 1;
+  }
+
+  .app__gallery-images_arrows {
+    position: absolute;
+    bottom: 5%;
+    padding: 0 2rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .gallery__arrow-icon {
+    font-size: 50px;
+    background: rgb(0, 0, 0, 0.85);
+    color: var(--color-golden);
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+
+  .gallery__arrow-icon:hover {
+    color: #fff;
+  }
+
+  /* Estilos padrão para telas grandes */
+  .app__gallery {
+    background: var(--color-black);
+    padding: 2.5rem 0 1.125rem 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .app__gallery-info {
+    min-width: 491px;
+  }
+
+  .app__gallery-images {
+    max-width: 68%;
+  }
+
+  .app__gallery-images_card {
+    min-width: 300px;
+    height: 447px;
+  }

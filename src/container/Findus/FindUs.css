@@ -1,0 +1,73 @@
+.app__findus {
+  padding: 6.875rem 19rem 8.438rem;
+
+  background: url('../../assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5rem;
+}
+
+
+.app__findus-content {
+  flex: 1;
+  min-width: 513px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.app__findus-content_title h3 {
+  color: var(--DCCA87, #DCCA87);
+  text-align: center;
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 2.56px;
+  text-transform: capitalize;
+}
+
+
+.app__findus-content_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.app__findus-content_hours {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.app__findus-content_hours p:first-child {
+  color: var(--color-golden);
+}
+
+.app__findus-img {
+  flex: 1;
+  min-width: 667px;
+  height: 712px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__findus-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,28 @@
+.app__awardcard {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid white;
+  flex: 1 1 300px;
+}
+
+.app__awardcard-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__awardcard-img img {
+  width: 79px;
+  height: 79px;
+}
+
+.app__awardcard-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.app__awardcard-info p:first-child {
+  color: var(--color-golden);
+}

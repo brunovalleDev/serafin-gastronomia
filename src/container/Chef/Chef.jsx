@@ -15,7 +15,7 @@ const Chef = () => (
     <div className="app__chef-info">
       <div className="app__chef-info_title">
         <SubHeading title="Chef’s Word" />
-        <h3 className="headtext__cormorant">What we believe in</h3>
+        <h3 className="headtext__cormorant" style={{ textTransform: 'uppercase' }}>Nossa meta principal</h3>
       </div>
 
       <div className="app__chef-content_content">
@@ -27,8 +27,8 @@ const Chef = () => (
       </div>
 
       <div className="app__chef-content_name">
-        <p className="p__cormorant">Kevin Luo</p>
-        <p className="p__opensans">Chef & Founder</p>
+        <p className="p__cormorant">Might Guy</p>
+        <p className="p__opensans">Chef & Fundador</p>
       </div>
 
       <div className="app__chef-content_sign">
