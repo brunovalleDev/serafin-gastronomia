@@ -22,7 +22,3 @@
   flex-direction: column;
   gap: 0.5rem;
 }
-
-.app__awardcard-info p:first-child {
-  color: var(--color-golden);
-}

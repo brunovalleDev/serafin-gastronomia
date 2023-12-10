@@ -9,7 +9,7 @@ const FindUs = () => (
     <div className="app__findus-content">
       <div className="app__findus-content_title">
         <SubHeading title="Contact" />
-        <h3>Find Us</h3>
+        <h3 className="section-title__cormorant">Find Us</h3>
       </div>
 
       <div className="app__findus-content_info">

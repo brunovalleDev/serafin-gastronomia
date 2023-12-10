@@ -34,20 +34,6 @@
   margin-bottom: 4rem;
 }
 
-.app__laurels-info_header h3 {
-  color: var(--DCCA87, #DCCA87);
-  font-variant-numeric: lining-nums tabular-nums;
-  /* H2 64px Cormorant Upright */
-  font-family: Cormorant Upright;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 130%;
-  /* 83.2px */
-  letter-spacing: 1.92px;
-  text-transform: capitalize;
-}
-
 .app__laurels-img {
   display: flex;
   align-items: center;

@@ -15,7 +15,7 @@ const Chef = () => (
     <div className="app__chef-info">
       <div className="app__chef-info_title">
         <SubHeading title="Chef’s Word" />
-        <h3 className="headtext__cormorant" style={{ textTransform: 'uppercase' }}>Nossa meta principal</h3>
+        <h3 className="section-title__cormorant">Nossa meta</h3>
       </div>
 
       <div className="app__chef-content_content">

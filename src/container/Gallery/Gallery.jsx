@@ -22,7 +22,7 @@ const Gallery = () => {
       <div className="app__gallery-info">
         <div className="app__gallery-info_title">
           <SubHeading title="Instagram" />
-          <h3>Photo Gallery</h3>
+          <h3 className="section-title__cormorant">Photo Gallery</h3>
         </div>
 
         <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>

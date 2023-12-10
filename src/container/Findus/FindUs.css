@@ -23,19 +23,6 @@
   gap: 4rem;
 }
 
-.app__findus-content_title h3 {
-  color: var(--DCCA87, #DCCA87);
-  text-align: center;
-  font-family: Cormorant Upright;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 130%;
-  letter-spacing: 2.56px;
-  text-transform: capitalize;
-}
-
-
 .app__findus-content_info {
   display: flex;
   flex-direction: column;

@@ -11,13 +11,13 @@ const SpecialMenu = () => {
 
       <div className="app__specialmenu-header">
         <SubHeading title="Menu that fits you palatte" />
-        <h2 className="app__specialmenu-header_title">Vinhos e Drinks</h2>
+        <h2 className="section-title__cormorant">Vinhos e Drinks</h2>
       </div>
 
       <div className="app__specialmenu-menu">
 
         <div className="app__specialmenu-menu_wine">
-          <h3 className="app__specialmenu-menu_title">Vinhos</h3>
+          <h3 className="subtitle__cormorant">Vinhos</h3>
           <div className="app__specialmenu-menu_items">
             {
               data.wines.map((wine, index) => (
@@ -32,7 +32,7 @@ const SpecialMenu = () => {
         </div>
 
         <div className="app__special-menu_cocktails">
-          <h3 className="app__specialmenu-menu_title">Drinks</h3>
+          <h3 className="subtitle__cormorant">Drinks</h3>
           <div className="app__specialmenu-menu_items">
             {
               data.cocktails.map((cocktail, index) => (

@@ -13,17 +13,6 @@
   text-align: center;
 }
 
-.app__specialmenu-header_title {
-  color: var(--DCCA87, #DCCA87);
-  text-align: center;
-  font-family: Cormorant Upright;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 130%;
-  letter-spacing: 2.56px;
-  text-transform: capitalize;
-}
 
 .app__specialmenu-menu {
   display: flex;
@@ -38,19 +27,6 @@
   flex-direction: column;
   gap: 3rem;
   flex: 1;
-}
-
-.app__specialmenu-menu_title {
-  color: var(--FFFFFF, #FFF);
-  text-align: center;
-  font-variant-numeric: lining-nums tabular-nums;
-  font-family: Cormorant Upright;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 130%;
-  letter-spacing: 1.8px;
-  text-transform: capitalize;
 }
 
 .app__specialmenu-menu_img {
@@ -76,59 +52,8 @@
 }
 
 
-@media screen and (max-width: 767px) {
-  .app__specialmenu {
-    padding: 5rem 1.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .app__specialmenu-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-  }
 
-  .app__specialmenu-menu_img img {
-    width: 350px;
-    object-fit: cover;
-    flex-shrink: 0;
-  }
-
-  .app__specialmenu-button {
-    min-width: 300px;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .app__specialmenu {
-    padding: 5rem 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .app__specialmenu-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-  }
-
-  .app__specialmenu-menu_img img {
-    width: 500px;
-    object-fit: cover;
-    flex-shrink: 0;
-  }
-}
 
 
 

@@ -7,7 +7,7 @@ const Header = () => (
   <div className="app__header">
     <div className="app__header-content">
       <SubHeading title="Busque O Melhor Sabor" />
-      <h1 className="app__header-content_title">Gastronomia que encanta</h1>
+      <h1 className="headtext__cormorant">Gastronomia que encanta</h1>
       <p className="p__opensans" style={{ margin: '2rem 0 2rem 0' }}>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
       <button className="custom__button" style={{ fontSize: '1.4rem' }}>Menu</button>
     </div>

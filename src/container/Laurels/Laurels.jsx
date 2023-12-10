@@ -10,7 +10,7 @@ const Laurels = () => {
       <div className="app__laurels-info">
         <div className="app__laurels-info_header">
           <SubHeading title="Awards & recognition" />
-          <h3>Our Laurels</h3>
+          <h3 className='section-title__cormorant'>Our Laurels</h3>
         </div>
 
         <div className="app__laurels-awards">
