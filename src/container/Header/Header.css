@@ -74,7 +74,7 @@
 
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1440px) {
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
 
   .app__header {
     padding: 10rem 4rem 3rem 4rem;

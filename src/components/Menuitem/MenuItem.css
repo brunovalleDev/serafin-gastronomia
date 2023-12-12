@@ -9,11 +9,39 @@
 
 .app__menuitem-head h4 {
   color: var(--color-golden);
-  flex-grow: 1;
+  flex: 1;
+
 }
 
 .app__menuitem-head_dash {
   width: 119px;
   height: 1px;
   background: var(--FAFAFA, #FAFAFA);
+}
+
+@media only screen and (max-width: 767px) {
+
+  .app__menuitem {
+    width: 100%;
+  }
+
+  .app__menuitem-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .app__menuitem-head h4 {
+    color: var(--color-golden);
+
+  }
+
+  .app__menuitem-head_dash {
+    width: 100px;
+    height: 1px;
+    background: var(--FAFAFA, #FAFAFA);
+  }
 }
